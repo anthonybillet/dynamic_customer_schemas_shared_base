@@ -18,14 +18,4 @@ view: +order_items {
     type: count_distinct
     sql: ${order_id} ;;
   }
-
-  # dimension: customer_a_custom_1 {
-  #   type: string
-  #   sql: ${TABLE}.customer_a_custom_1 ;;
-  # }
-  # dimension: customer_a_custom_2 {
-  #   type: string
-  #   sql: ${TABLE}.customer_a_custom_2 ;;
-  # }
-
 }

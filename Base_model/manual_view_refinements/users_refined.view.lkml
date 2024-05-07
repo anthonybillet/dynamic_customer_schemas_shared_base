@@ -11,13 +11,4 @@ view: +users {
     label: "Count Users"
   }
 
-  # dimension: customer_a_custom_1 {
-  #   type: string
-  #   sql: ${TABLE}.customer_a_custom_1 ;;
-  # }
-  # dimension: customer_a_custom_2 {
-  #   type: string
-  #   sql: ${TABLE}.customer_a_custom_2 ;;
-  # }
-
 }
