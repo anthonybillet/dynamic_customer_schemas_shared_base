@@ -1,6 +1,6 @@
 include: "/Base_model/base_views/order_items.view.lkml"
 view: +order_items {
-  sql_table_name: `ant-billet-looker-core-argolis.{{_user_attributes['customer_name']}}.order_items` ;;
+  sql_table_name: `ant-billet-looker-core-argolis.{{_user_attributes['schema_name']}}.order_items` ;;
 
 
   measure: total_sales {
